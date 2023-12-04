@@ -1,0 +1,16 @@
+.header{
+    background-color: #333;
+    width: 100%;
+}
+.header-icon{
+    padding: 10px;
+}
+li a {
+    color: white;
+    padding: 14px 10px;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
