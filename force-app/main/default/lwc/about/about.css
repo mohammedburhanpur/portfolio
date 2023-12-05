@@ -1,0 +1,44 @@
+.container{
+    height: 560px;
+    font-size: 20px;
+    font-weight: 280;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 50px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+
+p{
+    padding: 20px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+
+.progress{
+    width: 95%;
+    border-radius: 2px;
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    height: .6rem;
+}
+.progress-bar{
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+    background-color:#1a3179;
+    width: 95%;
+}
+.skill{
+    padding: 10px;
+}
