@@ -1,0 +1,7 @@
+.box{
+    background: red;
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.08);
+    border-radius: 10px;
+    height: 450px;
+
+}
