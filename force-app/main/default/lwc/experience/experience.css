@@ -68,10 +68,11 @@
 }*/
 
 h1{
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 35px;
+    font-weight: 400;
     padding: 10px;
     text-align: center;
+    color: #20247b; 
 }
 .fas{
     --slds-c-icon-radius-border:20px;
