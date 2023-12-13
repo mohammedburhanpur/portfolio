@@ -20,3 +20,7 @@ h1{
 .form-padding{
     padding: 0px 150px;
 }
+.contact-me-image{
+    position: relative;
+    top: 50px;
+}
