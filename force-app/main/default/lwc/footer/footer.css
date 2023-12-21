@@ -1,0 +1,13 @@
+.container{
+    border-top : 1px solid #dee2e6;
+}
+.text-logo{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.text-desc{
+    font-size: 19px;
+    font-weight: 200;
+}

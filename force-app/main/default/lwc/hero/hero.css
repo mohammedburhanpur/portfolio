@@ -13,11 +13,10 @@ img{
     font-size: 25px;
     font-style: italic;
     font-weight: 400;
+    color: blue;
 }
 .hero-text{
-    position: relative;
     text-align: center;
-    left: 40px;
 }
 .main-box{
     background: #ffffff;
@@ -25,6 +24,5 @@ img{
     border-radius: 10px;
 }
 h1{
-    color: blue;
     font-weight: 500;
 }
