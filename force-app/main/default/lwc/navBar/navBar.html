@@ -1,15 +1,27 @@
 <template>
-    <header class="header slds-p-top_small">
-        <div class="slds-p-around_large slds-m-horizontal_large slds-grid slds-grid_align-spread">
+    <header class="header">
+        <div class="slds-p-around_large slds-grid slds-grid_align-spread">
             <div class="slds-col slds-m-left_xx-large">
                 <lightning-icon class="icon" icon-name="utility:salesforce1" title="salesforce"></lightning-icon>
             </div>
             <div class="slds-col slds-m-right_x-large">
                 <div class="slds-grid slds-gutters slds-grid_vertical-align-center slds-grid_align-center">
-                    <span class="slds-col"><a style="text-decoration: none;" href="#">Home</a></span>
-                    <span class="slds-col"><a style="text-decoration: none;" href="#">About</a></span>
-                    <span class="slds-col"><a style="text-decoration: none;" href="#">Skills</a></span>
-                    <span class="slds-col"><a style="text-decoration: none;" href="#">Contact</a></span>
+                    <span class="slds-col">
+                        <lightning-button variant="base" label="Home" title="home-nav-bar"
+                            onclick={handleHomeNavBarClick}></lightning-button>
+                    </span>
+                    <span class="slds-col">
+                        <lightning-button variant="base" label="About" title="about-nav-bar"
+                            onclick={handleAboutNavBarClick}></lightning-button>
+                    </span>
+                    <span class="slds-col">
+                        <lightning-button variant="base" label="Skills" title="skills-nav-bar"
+                            onclick={handleSkillsNavBarClick}></lightning-button>
+                    </span>
+                    <span class="slds-col">
+                        <lightning-button variant="base" label="Contact" title="contact-nav-bar"
+                            onclick={handleContactNavBarClick}></lightning-button>
+                    </span>
                 </div>
             </div>
         </div>

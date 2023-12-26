@@ -6,15 +6,11 @@
     font-weight: 300;
     border-bottom : 1px solid #dee2e6;
 }
-a {
-    color: #1b3764;
-    text-transform: uppercase;
-  }
-  
-a:hover {
-    color: #4ab8b8;
-  }
 
 .icon{
     --slds-c-icon-color-foreground-default : #1798c1;
+  }
+
+html{
+    background-color: white;
   }
