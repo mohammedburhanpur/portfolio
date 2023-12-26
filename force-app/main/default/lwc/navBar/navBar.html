@@ -1,27 +1,32 @@
 <template>
     <header class="header">
-        <div class="slds-p-around_large slds-grid slds-grid_align-spread">
-            <div class="slds-col slds-m-left_xx-large">
+        <div data-id="header-align" class="slds-p-around_small slds-grid slds-grid_align-spread">
+            <div data-id="sfdc-icon" class="sfdc-icon slds-col slds-m-left_xx-large">
                 <lightning-icon class="icon" icon-name="utility:salesforce1" title="salesforce"></lightning-icon>
             </div>
-            <div class="slds-col slds-m-right_x-large">
-                <div class="slds-grid slds-gutters slds-grid_vertical-align-center slds-grid_align-center">
-                    <span class="slds-col">
-                        <lightning-button variant="base" label="Home" title="home-nav-bar"
-                            onclick={handleHomeNavBarClick}></lightning-button>
-                    </span>
-                    <span class="slds-col">
-                        <lightning-button variant="base" label="About" title="about-nav-bar"
-                            onclick={handleAboutNavBarClick}></lightning-button>
-                    </span>
-                    <span class="slds-col">
-                        <lightning-button variant="base" label="Skills" title="skills-nav-bar"
-                            onclick={handleSkillsNavBarClick}></lightning-button>
-                    </span>
-                    <span class="slds-col">
-                        <lightning-button variant="base" label="Contact" title="contact-nav-bar"
-                            onclick={handleContactNavBarClick}></lightning-button>
-                    </span>
+            <div data-id="hamurger-menu-align" class="slds-col slds-m-right_x-large">
+                <div class="menu" data-id="menu">
+                    <div class={dyamicCSS}>
+                        <span class="slds-col">
+                            <lightning-button variant="base" label="Home" title="home-nav-bar"
+                                onclick={handleHomeNavBarClick}></lightning-button>
+                        </span>
+                        <span class="slds-col">
+                            <lightning-button variant="base" label="About" title="about-nav-bar"
+                                onclick={handleAboutNavBarClick}></lightning-button>
+                        </span>
+                        <span class="slds-col">
+                            <lightning-button variant="base" label="Skills" title="skills-nav-bar"
+                                onclick={handleSkillsNavBarClick}></lightning-button>
+                        </span>
+                        <span class="slds-col">
+                            <lightning-button variant="base" label="Contact" title="contact-nav-bar"
+                                onclick={handleContactNavBarClick}></lightning-button>
+                        </span>
+                    </div>
+                </div>
+                <div class="hamburger-icon">
+                    <lightning-icon class="icon" icon-name="utility:rows" title="mobile-menu" onclick={handleResposive}></lightning-icon>
                 </div>
             </div>
         </div>
